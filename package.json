@@ -1,0 +1,21 @@
+{
+  "name": "teste-cypres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:login": "cypress run --spec cypress/e2e/login.cy.js",
+    "cy:run:session": "cypress run --spec cypress/e2e/session.cy.js",
+    "cy:run:post-login": "cypress run --spec cypress/e2e/post-login.cy.js",
+    "cy:run:forgot": "cypress run --spec cypress/e2e/forgot-password.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.14.2"
+  }
+}
